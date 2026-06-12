@@ -1,7 +1,5 @@
 site_name: IoT-project robotica 3
 
-site_url: https://frankyloret.github.io/IoT_project_robotica3/
-
 theme:
   name: material
 
@@ -9,7 +7,8 @@ markdown_extensions:
   - pymdownx.caret
 
 nav:
-  
+  - Home: index.md
+      
   - About this course:
       - About this course: about-this-course/README.md
 
