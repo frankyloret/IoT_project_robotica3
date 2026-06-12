@@ -1,0 +1,81 @@
+site_name: IoT-project robotica 3
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.caret
+
+nav:
+  
+  - About this course:
+      - About this course: about-this-course/README.md
+
+  - Zeven Segment Display:
+      - Introductie: 1_zevensegment/01-display/README.md
+      - Schema: 1_zevensegment/02-schema/README.md
+      - Flowchart: 1_zevensegment/03-flowchart/README.md
+      - Programma: 1_zevensegment/04-programma/README.md
+
+  - Methoden:
+      - Methoden zonder parameters: 2_methoden/01-methode_zonder/README.md
+      - Methoden met meegeefparameters: 2_methoden/02-methode_met/README.md
+      - Methoden zonder meegeefparameters: 2_methoden/03-methode_return/README.md
+
+  - BCD naar 7-segment convertor:
+      - CD4511BE: 3_driver/01-4511/README.md
+      - Schema: 3_driver/02-schema/README.md
+      - Werking van de CD4511BE: 3_driver/03-werking/README.md
+      - Flowchart: 3_driver/04-flowchart/README.md
+      - Programma: 3_driver/05-programma/README.md
+
+  - Parallelle communicatie:
+      - Parallelle communicatie: 4_parallel/01-pvs/README.md
+      - Parallel LCD-dsiplay: 4_parallel/02-lcd/README.md
+      - Opdrachten: 4_parallel/03-opdracht/README.md
+      
+  - Interrupts:
+      - Polling: 5_interrupt/01-polling/README.md
+      - Principe van interrupts: 5_interrupt/02-interrupt/README.md
+      - Hardware interrupts: 5_interrupt/03-hardware/README.md
+      - Voorbeeld - het toggelen van twee LED's met twee interrupts: 5_interrupt/04-voorbeeld/README.md
+      - Opdracht: 5_interrupt/05-opdracht/README.md
+
+  - Timers:
+      - The MicroPython class Timer: 6_timer/01-millis/README.md
+      - Timer interrupts met de ESP32: 6_timer/02-hardware_timer/README.md
+ 
+  - Dender effect:
+      - Anti-dender: 7_dender/01-dender/README.md
+      - Dender hardwarematig oplossen met een flip-flop: 7_dender/02-hardware/README.md
+      - Debouncing van een push-button d.m.v. een Timer: 7_dender/03-software/README.md
+      - Opdracht: 7_dender/04-opdracht/README.md
+
+  - Seriële communicatie:
+      - Verbindingen bij een seriële communicatie: 8_serial/01-aansluiting/README.md
+      - Connectoren: 8_serial/02-connector/README.md
+      - RS232-signaalniveaus: 8_serial/03-rs232/README.md
+      - TTL-seriële signaalniveaus: 8_serial/04-ttl/README.md
+      - Seriële communicatie: 8_serial/05-serial/README.md
+      - Veel voorkomende fouten: 8_serial/06-fout/README.md
+      - ESP32 en seriële communicatie: 8_serial/07-esp32/README.md
+      - Terminal APP: 8_serial/08-terminal/README.md
+      - Voorbeeld seriële communicatie bij de ESP32: 8_serial/09-voorbeeld/README.md
+      - Opdrachten: 8_serial/10-opdracht/README.md
+
+  - I2C:
+      - Wat is I<sup>2</sup>C?: 9_i2c/01-i2c/README.md
+      - I<sup>2</sup>C met de ESP32: 9_i2c/02-esp32/README.md
+      - ESP32 als I<sup>2</sup> Master en een 8-bit I<sup>2</sup>C GPIO slave (PCF8574): 9_i2c/03-PCF8574/README.md
+      - ESP32 als I<sup>2</sup>C Master en een I<sup>2</sup> temperatuur sensor (DS1621): 9_i2c/04-DS1621/README.md
+
+  - SPI:
+      - Wat is SPI?: 10_spi/01-spi/README.md
+      - SPI met een ESP32: 10_spi/02-esp/README.md
+      - Aansturen van een MCP23S09 SPI I/O Expander: 10_spi/03-mcp/README.md
+      - Aansturen van een adresseerbare ledstrip (daisy-chain): 10_spi/04-leds/README.md
+
+  - Deep Sleep en WakeUp methoden:
+      - Introductie: 11_deepsleep/01-intro/README.md
+      - Timer Wake Up: 11_deepsleep/02-timerWakeUp/README.md
+      - External Wake Up:: 11_deepsleep/03-externalWakeUp/README.md
